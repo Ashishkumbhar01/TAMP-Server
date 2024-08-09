@@ -1,4 +1,5 @@
 ## TAMP Server
+TAMP Server for Android Operating System or Mobile 📱 and Laptops  💻 
 * T for Termux App.
 * A for Apache Web Server.
 * M for MariaDB database.
@@ -16,4 +17,10 @@ apt install php php-apache apache2 mariadb phpmyadmin -y
 if you want to install Composer and SMTP library than try this:
 ```bash
 apt install composer msmtp -y
+```
+
+### PHP and Apache Web Server Configuration
+
+```
+
 ```

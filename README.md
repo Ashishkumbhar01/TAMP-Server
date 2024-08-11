@@ -126,4 +126,4 @@ Please support me if my works helpfull for you.
 <iframe src="https://github.com/sponsors/Ashishkumbhar01/card" title="Sponsor Ashishkumbhar01" height="225" width="600" style="border: 0;"></iframe>
 
 
-[![Sponsor](https://github.com/sponsors/Ashishkumbhar01/card "Sponsor Ashishkumbhar01")].
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/Ashishkumbhar01](https://github.com/sponsors/Ashishkumbhar01/card "Sponsor Ashishkumbhar01")].

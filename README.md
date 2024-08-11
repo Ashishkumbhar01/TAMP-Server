@@ -32,7 +32,7 @@ vi $PREFIX/etc/apache2/httpd.conf
 * Go to line number 65
 * put this line of code in your `httpd.conf` file.
 
-```bash
+```conf
 65 LoadModule php_module libexec/apache2/libphp.so
 ```
 * Remove # (Uncomment) from line number 66 `mpm_prefork_module`.
@@ -53,7 +53,7 @@ Full code here:
 * Scrolldown in your Apache's `httpd.conf` file.
 * Add this line of code in your `httpd.conf` file.
 
-```bash
+```conf
 532
 533   <FilesMatch \.php$>
 534      SetHandler application/x-httpd-php

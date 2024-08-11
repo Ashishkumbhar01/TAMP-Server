@@ -1,6 +1,6 @@
 ## TAMP Server
 
-TAMP Server for Android Operating System or Mobile 📱 and Laptops  💻 
+TAMP Server for Android/ Operating System or Mobile 📱 and Laptops  💻 
 
 ![TAMP](./TAMP.png)
 
@@ -87,5 +87,39 @@ vi $PREFIX/etc/phpmyadmin/config.inc.php
 34 $cfg['Servers'][$i]['socket'] = '/var/run/mysqld.sock';
 ```
 * Everything is changes than we are access our database through the phpmyadmin.
-* if you want to opne PHPMyAdmin than [click here](http://localhost:8080/phpmyadmin/)
+* if you want to opne PHPMyAdmin than [click here](http://localhost:8080/phpmyadmin/).
 * username is `root` and password is blank(password not set by default).
+
+
+### SMTP Configuration.
+* First of all we need our `php.ini` file.
+* So we are create our `php.ini`.
+* following this command on your Termux/terminal `touch php.ini`.
+```bash
+vi $PREFIX/lib/php.ini
+```
+* add this line of code in your `php.ini` file.
+```php
+sendmail_path = "/bin/msmtp -C /etc/.msmtprc -t"
+```
+* We are create our `.msmtprc` file.
+```bash
+vi $PREFIX/etc/.msmtprc
+```
+* Following of this code:
+```bash
+account default
+host smtp.gmail.com
+port 587
+from # your email
+auth on
+user # your email
+password # secret code
+tls on
+tls_starttls on
+tls_trust_file /etc/tls/cert.pem
+```
+
+### Support me!
+
+<iframe src="https://github.com/sponsors/Ashishkumbhar01/card" title="Sponsor Ashishkumbhar01" height="225" width="600" style="border: 0;"></iframe>

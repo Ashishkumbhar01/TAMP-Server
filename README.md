@@ -9,10 +9,6 @@ TAMP Server for Android/ Operating System or Mobile 📱 and Laptops  💻
 * M for MariaDB database.
 * P for PHP Language.
 
-![GitHub forks](https://img.shields.io/github/forks/Ashishkumbhar01/TAMP-Server?style=for-the-badge&logo=Github)
-![GitHub License](https://img.shields.io/github/license/Ashishkumbhar01/TAMP-Server?style=for-the-badge)
-
-
 ### How to install
 Step 1: First of all we are update and upgrade our Termux App packages and repositories.
 ```bash
@@ -126,5 +122,7 @@ tls_trust_file /etc/tls/cert.pem
 
 ### Support me!
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/Ashishkumbhar01?style=for-the-badge&logo=Github%20Sponsors&label=Support%20me)](https://github.com/sponsors/Ashishkumbhar01)
+![GitHub forks](https://img.shields.io/github/forks/Ashishkumbhar01/TAMP-Server?style=for-the-badge&logo=Github)
+![GitHub License](https://img.shields.io/github/license/Ashishkumbhar01/TAMP-Server?style=for-the-badge)
 
 Please support me if my works helpfull for you.

@@ -77,7 +77,6 @@ vi $PREFIX/etc/phpmyadmin/config.inc.php
 * A little bits scrolldown than we are getting this of code:
 
 ```php
-26
 27 /* Authentication type */
 28 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 29 /* Server parameters */
@@ -85,9 +84,8 @@ vi $PREFIX/etc/phpmyadmin/config.inc.php
 31 $cfg['Servers'][$i]['port'] = '3306';
 32 $cfg['Servers'][$i]['compress'] = false;
 33 $cfg['Servers'][$i]['AllowNoPassword'] = true;
-34 $cfg['Servers'][$i]['socket'] = '/data/data/com.termux/files/usr/var/run/mysqld.sock';
-35
+34 $cfg['Servers'][$i]['socket'] = '/var/run/mysqld.sock';
 ```
 * Everything is changes than we are access our database through the phpmyadmin.
-* PHPMyAdmin: [PHPMyAdmin](http://localhost:8080/phpmyadmin/)
+* if you want to opne PHPMyAdmin than [click here](http://localhost:8080/phpmyadmin/)
 * username is `root` and password is blank(password not set by default).

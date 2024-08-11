@@ -62,4 +62,32 @@ Full code here:
 537 Include etc/apache2/extra/php_module.conf
 538
 ```
- 
+
+### PHPMyAdmin Configuration.
+* We are need to change some line of code from our phpmyadmin's `config.inc.php` file.
+```bash
+vi $PREFIX/etc/phpmyadmin/config.inc.php
+```
+* First of all we need a 32 bytes secret code, because we are safe our database from hackers and attackers.
+
+```php
+16 $cfg['blowfish_secret'] = '7yRxkscr/SB4Sb729H7HdnbNqZxJOQ==';
+```
+
+* A little bits scrolldown than we are getting this of code:
+
+```php
+26
+27 /* Authentication type */
+28 $cfg['Servers'][$i]['auth_type'] = 'cookie';
+29 /* Server parameters */
+30 $cfg['Servers'][$i]['host'] = 'localhost';
+31 $cfg['Servers'][$i]['port'] = '3306';
+32 $cfg['Servers'][$i]['compress'] = false;
+33 $cfg['Servers'][$i]['AllowNoPassword'] = true;
+34 $cfg['Servers'][$i]['socket'] = '/data/data/com.termux/files/usr/var/run/mysqld.sock';
+35
+```
+* Everything is changes than we are access our database through the phpmyadmin.
+* PHPMyAdmin: [PHPMyAdmin](http://localhost:8080/phpmyadmin/)
+* username is `root` and password is blank(password not set by default).

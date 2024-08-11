@@ -121,5 +121,9 @@ tls_trust_file /etc/tls/cert.pem
 ```
 
 ### Support me!
+Please support me if my works helpfull for you.
 
-_<iframe src="https://github.com/sponsors/Ashishkumbhar01/card" title="Sponsor Ashishkumbhar01" height="225" width="600" style="border: 0;"></iframe>_
+<iframe src="https://github.com/sponsors/Ashishkumbhar01/card" title="Sponsor Ashishkumbhar01" height="225" width="600" style="border: 0;"></iframe>
+
+
+[![Sponsor](https://github.com/sponsors/Ashishkumbhar01/card "Sponsor Ashishkumbhar01")].

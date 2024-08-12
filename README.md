@@ -55,9 +55,9 @@ Full code here:
 
 ```conf
 532
-533   <FilesMatch \.php$>
-534      SetHandler application/x-httpd-php
-535   </FilesMatch>
+533 <FilesMatch \.php$>
+534     SetHandler application/x-httpd-php
+535 </FilesMatch>
 536
 537 Include etc/apache2/extra/php_module.conf
 538
@@ -121,10 +121,6 @@ tls_trust_file /etc/tls/cert.pem
 ```
 
 ### Support me!
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/Ashishkumbhar01?style=for-the-badge&logo=Github%20Sponsors&label=Support%20me)](https://github.com/sponsors/Ashishkumbhar01)
 ![GitHub forks](https://img.shields.io/github/forks/Ashishkumbhar01/TAMP-Server?style=for-the-badge&logo=Github)
 ![GitHub License](https://img.shields.io/github/license/Ashishkumbhar01/TAMP-Server?style=for-the-badge)

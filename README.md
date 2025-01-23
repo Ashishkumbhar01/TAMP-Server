@@ -58,7 +58,7 @@ Full code here:
 533 <FilesMatch \.php$>
 534     SetHandler application/x-httpd-php
 535 </FilesMatch>
-536
+536  AddHandler php-script .php
 537 Include etc/apache2/extra/php_module.conf
 538
 ```
